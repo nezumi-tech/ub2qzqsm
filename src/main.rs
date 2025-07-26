@@ -1,7 +1,7 @@
 use std::{sync::mpsc, time::Duration};
 
-const COM_PORT:&str = "COM11";
-const BAUD_RATE:u32 = 9600;
+const COM_PORT:&str = "COM8";
+const BAUD_RATE:u32 = 19200;
 
 fn main() {
     let mut port = serialport::new(COM_PORT, BAUD_RATE)
