@@ -148,7 +148,7 @@ fn parse(class: u8, id: u8, payload: Vec<u8>) {
             // println!("Not QZSS");
             return;
         }
-        if num_words != 8 {
+        if num_words != 8 && num_words != 9 {
             // println!("Not num_words == 8");
             return;
         }
